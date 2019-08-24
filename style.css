@@ -74,6 +74,11 @@
   text-transform: uppercase;
 }
 
+.Bio p{
+  font-size: 1.2rem;
+
+}
+
 .btn-dark {
   text-transform: uppercase;
   border-width: medium;
@@ -91,10 +96,6 @@
 
 /*Achievements and Work page*/
 
-
-.work{
-  min-height: 100vh !important;
-}
 
 
 .bg-light{
