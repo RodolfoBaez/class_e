@@ -26,7 +26,7 @@
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
--webkit-transform: scale(0.8);
+ -webkit-transform: scale(0.8);
   transition:500ms ease;
 }
 
@@ -34,7 +34,7 @@
 /*start of landing page*/
 .home-inner {
   background-image: url("background1.png");
-  min-height: 100%
+  min-height: 100vh !important;
 }
 
 .caption {
@@ -44,8 +44,12 @@
   top: 38%;
   z-index: 1;
   color: white;
-  text-transform: capitalize;
+  text-transform: uppercase;
 
+}
+
+.caption p{
+    text-transform: uppercase;
 }
 
 .caption h1 {
@@ -53,22 +57,99 @@
   font-weight: 700;
   letter-spacing: .3rem;
   text-shadow: .1rem .1rem .8rem black;
-
 }
 
-.caption h3 {
-  font-size: 2rem text-shadow:.1rem .1rem .5rem black;
+.Bio{
+  min-height: 100vh !important;
 }
 
-.btn-lg {
+.Bio h1{
+  color:#403D58;
+  text-transform: uppercase;
+}
+
+
+.Bio h2{
+  color:#403D58;
+  text-transform: uppercase;
+}
+
+.btn-dark {
+  text-transform: uppercase;
   border-width: medium;
   border-radius: 0;
   padding: .6rem 1.3rem;
   fontsize: 1.1rem;
-  text-transform: uppercase;s
+  background-color: #403D58;
+}
+
+.btn-dark:hover{
+  background-color: #403D58 !important;
+  color:white !important;
+  opacity: 0.8;
+}
+
+/*Achievements and Work page*/
+
+
+.work{
+  min-height: 100vh !important;
 }
 
 
-.Bio{
-  min-height: 100vh !important;
+.bg-light{
+  background:transparent !important;
+  transition:500ms ease;
+  color: white !important;
+  letter-spacing: .3rem;
+
+}
+
+.bg-light.scrolled {
+  background: #DE3C4B!important;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+ -webkit-transform: scale(0.8);
+  transition:500ms ease;
+}
+
+.home-inner2 {
+  background-image: url("background3.png");
+  min-height: 100vh;
+
+}
+
+.work h1{
+  color:#DE3C4B;
+  opacity: 0.9;
+  text-transform: uppercase;
+}
+
+.work img{
+ height: 12rem;
+ width: 20rem;
+}
+
+
+.work .btn-dark {
+  width: 11rem;
+  text-transform: uppercase;
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  fontsize: 1.1rem;
+  background-color: #DE3C4B;
+}
+
+.work .btn-dark:hover{
+  background-color: #DE3C4B !important;
+  color:white !important;
+  opacity: 0.8;
+}
+
+.work h2{
+  color: #FF9B71;
 }
