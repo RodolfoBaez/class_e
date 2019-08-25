@@ -156,8 +156,14 @@
 }
 
 .work p {
-
     font-size: 1.5rem;
+}
 
+.img-hover-zoom img {
+  transition: transform 3s ease;
 
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
 }
