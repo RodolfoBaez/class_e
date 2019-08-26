@@ -159,17 +159,8 @@
     font-size: 1.5rem;
 }
 
-.img-hover-zoom img {
-  transition: transform 3s ease;
-
-}
-
-.img-hover-zoom:hover img {
-  transform: scale(1.1);
-}
-
 #carouselExampleControls .btn-dark{
-  border-radius: 50%;
+
   text-transform: uppercase;
   height: 3.5rem;
   width: 3.5rem;
@@ -177,6 +168,5 @@
   font-size: 1.2rem;
   opacity: 0.9;
   margin-left: 1rem;
-  background-color:#FF9B71;
 
 }
